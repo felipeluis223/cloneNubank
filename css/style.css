@@ -63,7 +63,6 @@ a{
 }
 .header-title{
     width: 100%;
-    background-color: red;
 }
 .header-title span{
     display: flex;
