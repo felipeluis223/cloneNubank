@@ -13,13 +13,15 @@ a{
     text-decoration: none;
 }
 .container-header{
-    width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
+    width: 98%;
+    background-color: var(--colorBaseLight);
+    padding-left: 2%;
     height: 60px;
-    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;    
     display: flex;
     align-items: center;
+    position: sticky;
+    top:0; left:0;
 }
 .container-options-navbar{
     width: 100%; height: 100%;
@@ -27,7 +29,7 @@ a{
     align-items: center;
 }
 .ul-options{
-    width: 50%; height: 100%;
+    width: 30%; height: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -39,7 +41,7 @@ a{
     font-weight: bold;
 }
 .container-login{
-    width: 45%; height: 100%;
+    width: 65%; height: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -48,4 +50,38 @@ a{
 }
 .icon-login{
     color: var(--colorBaseNubank);
+}
+.container-apresetation{
+    width: 100%; height: 1200px;
+    background-color: yellow;
+    /*
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("https://nubank.com.br/images-cms/1668630922-home_bolao_desk.jpg?w=1152&dpr=1&auto=compress&fm=webp");
+    */
+}
+.header-title{
+    width: 100%; height: 230px;
+    background-color: red;
+}
+.header-title span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    background-color: purple;
+}
+.decorator-describle{
+    width: auto; height: 190px;
+    margin-left: 15px;
+    display: flex; flex-direction:column;
+    justify-content: flex-end;
+    background-color: green;
+}
+.decorator-describle span{
+    background-color: blue;
+}
+.container-risco{
+    width: 100%; height: 40px;
 }
