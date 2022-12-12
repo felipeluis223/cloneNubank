@@ -59,7 +59,7 @@ a{
     justify-content: space-between;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("https://nubank.com.br/images-cms/1668630922-home_bolao_desk.jpg?w=1152&dpr=1&auto=compress&fm=webp");
+    background-image: url("../images/background_nubolao.jpg");
 }
 .header-title{
     width: 100%;
@@ -88,7 +88,7 @@ a{
 }
 .container-describle-world-cup{
     margin-left: 50px;
-    width: 30%; height: 300px;
+    width: 45%; height: 300px;
     color: var(--colorBaseLight);
     display: flex; justify-content: center;
     align-items: center;
@@ -138,4 +138,36 @@ a{
     align-items: center;
     justify-content: space-around;
     
+}
+
+.container-nubolao{
+    width: 100%;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: row;
+}
+.container-describle-nubolao{
+    width: 50%; height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.describle-nubolao  {
+    width: 90%; height: 50%;
+    font-weight: bold;
+    color: var(--colorBaseNubank);
+    font-size: 2.5rem;
+}
+.award-nubolao {
+    width: 90%;
+    font-size: 1.5rem;
+}
+.award-nubolao span{
+    font-weight: bold;
+}
+.img-nubolao{
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
